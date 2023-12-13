@@ -5,7 +5,7 @@ def largest(a, b, c):
   return max(a, b, c)
 
 st.header('**App to find the largest among three**', divider='rainbow')
-
+st.write("    ")
 # Create input fields for user to enter values
 num1 = st.number_input("**Enter first number:**", key="num1")
 num2 = st.number_input("**Enter second number:**", key="num2")

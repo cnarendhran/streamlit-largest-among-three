@@ -13,4 +13,4 @@ num3 = st.number_input("Enter third number:", key="num3")
 largest_num = largest(num1, num2, num3)
 
 # Display the result
-st.write(f"The largest number is: {largest_num}")
+st.write(f":rainbow[The largest number is:] {largest_num}")
